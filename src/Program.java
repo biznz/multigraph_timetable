@@ -55,7 +55,7 @@ public class Program {
         //System.out.println("Days of the week there is a direct flight from london to milan");
         //System.out.println(daysOfTheWeekDirectFlight(new Place("zurich"),new Place("ljubljana")));
         //available flights between Place1 and Place2 on day X
-        Search.BFS(new Place("zurich"),new Place("ljubljana"),airports);
+        System.out.println(Search.BFS(new Place("zurich"),new Place("ljubljana"),airports,"th"));
     }
     
     public static void buildDatabase(){

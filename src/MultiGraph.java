@@ -46,7 +46,7 @@ public class MultiGraph {
     
     public ArrayList<Edge> getEdges(Place origin){
         ArrayList<Edge> edges = new ArrayList<Edge>();
-        System.out.println(origin.getName());
+        //System.out.println(origin.getName());
         for(Edge e:this.E){
             if(e.getEnd1().getPlace().equals(origin)){
                 edges.add(e);
